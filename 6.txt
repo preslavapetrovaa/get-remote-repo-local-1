@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        int minutes = 500000;
+        double years = minutes * 0.0000019013;
+        double days = minutes/1440;
+        System.out.println(years);
+        System.out.println(days);
+
+
+
+    }
+}

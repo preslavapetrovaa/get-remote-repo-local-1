@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.println("Please give the base of the triangle:");
+        double base = s.nextDouble();
+
+        System.out.println("Please give the height of the triangle:");
+        double height = s.nextDouble();
+
+        double area=(base * height)/2;
+
+
+        System.out.println(area);
+
+
+
+    }
+}
